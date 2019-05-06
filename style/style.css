@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    width: 1920px;
+    height: 55px;
+}
+.top-header .top-bar{
+    width: 1920px;
+    height: 50px;
+    padding-left: 380px;
+    background-color: #1A1C27;
+    border-top: 2px solid #57606B;
+}
+.top-bar .language{
+    font-family: 'Lato';
+    float: left;
+    width: 200px;
+    height: 48px;
+    color: #ffffff;
+    border-left: 1px solid #57606B;
+    border-right: 1px solid #57606B;
+}
+.top-bar .language img{
+    float: left;
+    margin-top: 16px;
+    margin-left: 15px;
+    margin-right: 14px;
+}
+.top-bar .language h5{
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 46px;
+}
+.top-bar .language span{
+    color: #95A4AF;
+}
+.top-bar .call{
+    font-family: 'Lato';
+    float: left;
+    width: 200px;
+    height: 48px;
+    border-right: 1px solid #57606B;
+}
+.top-bar .call img{
+    float: left;
+    margin-top: 16px;
+    margin-left: 15px;
+    margin-right: 14px;
+}
+.top-bar .call h5{
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #A1B1BC;
+    line-height: 46px;
+}
+.top-bar .email{
+    font-family: 'Lato';
+    float: left;
+    width: 200px;
+    height: 48px;
+    border-right: 1px solid #57606B;
+    
+}
+.top-bar .email img{
+    float: left;
+    margin-top: 16px;
+    margin-left: 15px;
+    margin-right: 14px;
+}
+.top-bar .call img{
+    float: left;
+    margin-top: 16px;
+    margin-left: 15px;
+    margin-right: 14px;
+}
+.top-bar .email h5{
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #A1B1BC;
+    line-height: 46px;
+}
+/*end top header*/
+/*start nav-bar*/
+.nav-bar{
+    height: 100px;
+    margin-left: 380px;
+}
+.nav-bar .logo{
+    float: left;
+    margin-top: 30px;
+}
+.nav-bar h3{
+    float: right;
+    font-family: 'Lato';
+    font-size: 35px;
+    color: #2C3E50;
+    line-height: 40px;
+    margin-left: 14px;
+}
+.menu{
+    float: left;
+    margin-top: 46px;
+    margin-left: 30px
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-left: 46px;
+    font-family: 'Lato';
+    font-size: 15px;
+    color: #A1B1BC;
+}
+.menu ul li a:hover{
+    color: #1ABC9C;
+    border-top: 6px solid #1ABC9C;
+    padding-top: 50px;
+}
+
+
+
+/*end nav-bar*/
