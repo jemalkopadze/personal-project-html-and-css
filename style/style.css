@@ -111,7 +111,7 @@
 }
 .menu ul li{
     float: left;
-    padding-left: 30px;
+    padding-left: 54px;
 }
 .menu ul li a{
     text-decoration: none;
@@ -136,16 +136,31 @@
     margin-top: 32px;
     background-color: #444651;
 }
-.clasic-blog h3{
+.clasic-blog .bars{
+    width: 600px;
+    height: 50px
+}
+.clasic-blog .bars h3{
     font-family: 'Lato';
     font-size: 30px;
     color: #ffffff;
-    line-height: 82px;
+    line-height: 120px;
     margin-left: 380px;
 }
+
+.clasic-blog img{
+    float: right;
+    margin-top: -77px;
+    padding: 14px;
+    border: 1px solid #A1B1BC;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+
 .clasic-blog ul{
     float: right;
     list-style-type: none;
+    margin-right: 326px;
 }
 .clasic-blog ul li{
     float: left;
@@ -157,6 +172,10 @@
     margin-right: 30px;
     color: #ffffff;
     text-decoration: none;
+}
+.clasic-blog ul li a i{
+    margin-top: 10px;
+    margin-left: 20px;
 }
 /*start comnet*/
 /*start posts*/
@@ -180,14 +199,19 @@
 .posts .post-1 p{
     font-family: 'Lato';
     font-size: 14px;
-    color: #2C3E50;
+    color: #A1B1BC;
+    margin-top: 10px;
+
+}
+.posts .post-1 .span-line{
+    border-bottom: 1px solid #ECF0F1;
     margin-top: 10px;
 }
 .posts .post-1 p span::after{
     content: '';
     width: 1px;
     height: 15px;
-    background-color: #2C3E50;
+    background-color: #A1B1BC;;
     display: inline-block;
     vertical-align: middle;
     margin-left: 13px;
@@ -197,7 +221,8 @@
     display: none;
 }
 
-.posts .post-1 .text-1{
+
+.posts .post-1 .text{
     font-family: 'Lato';
     font-size: 14px;
     line-height: 24px;
@@ -213,6 +238,7 @@
     text-align: center;
     line-height: 30px;
     border: 1px solid #2C3E50;
+    border-radius: 4px;
     margin-top: 30px;
 }
 
@@ -235,28 +261,158 @@
     background-color: #ffffff;
 }
 .posts .post-2 .left-button{
-    top: 42%;
+    top: 30%;
     left: 0;
 }
 .posts .post-2 .right-button{
     border-radius: 5px 0px 0px 5px;
-    top: 42%;
+    top: 30%;
     right: 35px;
 }
-.posts .post-2 .bottom-elips{
+
+.posts .post-2 .elips{
+    display: flex;
+    justify-content: center;
     position: absolute;
-    top: 80%;
-    left: 45%;
+    top: 53%;
+    left: 42%;
     width: 100px;
     height: 50px;
-    background-color: #1A1C27;
+    color: white;
+}
+.posts .post-2 .elips-0,.elips-1,.elips-2,.elips-4{
+    float: left;
+    margin: 8px 2px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+.posts .post-2 .elips-0,.elips-3{
+    float: left;
+    margin: 8px 2px;
+    width: 19px;
+    height: 19px;
+    margin-top: 7px;
+    border: 2px solid white;
+    border-radius: 50%;
 }
 
+.posts .post-2 h3{
+    font-family: 'Lato';
+    font-size: 30px;
+    line-height: 30px;
+    color: #1ABC9C;
+    margin-top: 20px;
+}
+.posts .post-2 p{
+    font-family: 'Lato';
+    color: #A1B1BC;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.posts .post-2 .span-line{
+    border-bottom: 1px solid #ECF0F1;
+    margin-top: 10px;
+}
+.posts .post-2 p span::after{
+    content: '';
+    width: 1px;
+    height: 15px;
+    background-color: #A1B1BC;;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.posts .post-2 p span:last-child::after{
+    display: none;
+}
+
+.posts .post-2 .button-2{
+    width: 150px;
+    height: 50px;
+    background-color: #1A1C27;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Lato';
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.posts .post-2 .button-2:hover{
+    cursor: pointer;
+}
+/*end psot-2*/
+/*start video*/
+.posts .video{
+    margin-top: 50px;
+}
+
+.posts .video h3{
+    font-family: 'Lato';
+    font-size: 30px;
+    line-height: 30px;
+    color: #2C3E50;
+}
+.posts .video p{
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 30px;
+    color: #A1B1BC;
+    margin-top: 20px;
+}
+.posts .video p span::after{
+    content: '';
+    width: 1px;
+    height: 15px;
+    background-color: #A1B1BC;;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.posts .video p span:last-child::after{
+    display: none;
+}
+.posts .video .span-line{
+    border-bottom: 1px solid #ECF0F1;
+    margin-top: 20px;
+}
+.posts .video .text{
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 24px;
+}
+.posts .video .viemo{
+    color: #1ABC9C;
+}
+.posts .video .link{
+    color: #2C3E50;
+}
+.posts .video .button-3{
+    width: 150px;
+     height: 50px;
+    font-family: 'Lato';
+    font-size: 16px;
+    padding: 8px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #2C3E50;
+    border-radius: 4px;
+    margin-top: 30px;
+
+}
+/*end video viemo*/
+/*start youtube*/
+
+/*end youtube*/
 
 
 
 
 
+/*end video*/
 /*end posts*/
 .commnets{
     margin-top: 50px;
@@ -515,4 +671,5 @@
     border-bottom: 1px solid #DEE5E9; 
 }
 /*end comments*/
+
 
